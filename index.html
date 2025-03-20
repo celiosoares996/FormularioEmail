@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de email</title>
+</head>
+<body>
+    <form id="formulario">
+        <div class="input-box">
+            <label>Tombamento:</label>
+            <input type="text" id="tombamento">
+        </div>
+        
+        <div class="input-box">
+            <label>Setor:</label>
+            <input type="text" id="setor"><br>
+        </div>
+       
+        <div class="input-box">
+            <label>Sede:</label>
+            <input type="text" id="sede"><br>
+        </div>
+        
+        <div class="input-box">
+            <label>Defeito:</label>
+            <input type="text" id="defeito">
+        </div>
+        
+        <div class="input-box">
+            <label>Diagnóstico:</label>
+            <input type="text" id="diagnostico">
+        </div>
+
+        <div class="input-box">
+            <label>Reparo:</label>
+            <input type="text" id="reparo">
+        </div>
+    
+        <h3>Configuração Atual</h3>
+    
+        <label>Placa mãe:</label>
+        <input type="text" id="placaMae"><br>
+    
+        <label>Processador:</label>
+        <input type="text" id="processador"><br>
+    
+        <label>Memória 1:</label>
+        <input type="text" id="memoria1"><br>
+    
+        <label>Memória 2:</label>
+        <input type="text" id="memoria2"><br>
+    
+        <label>Armazenamento:</label>
+        <input type="text" id="armazenamento"><br>
+    
+        <label>Total (R$):</label>
+        <input type="text" id="total"><br>
+    
+        <button type="button" onclick="formatarDados()">Formatar e Copiar</button>
+    </form>
+    
+    <pre id="resultado"></pre>    
+</body>
+<script src="script.js"></script>
+</html>
