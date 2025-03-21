@@ -25,15 +25,17 @@ Diagnóstico: ${diagnostico}
 Reparo: ${reparo}
 Status: Aguardando Autorização de Conclusão.
 
-**Configuração atual:**  
+Configuração atual: 
 Placa mãe: ${placaMae}  
 Processador: ${processador}  
 Memória: ${memoria1}  
 Memória: ${memoria2}  
 Armazenamento: ${armazenamento}  
 
-**Taxa de serviço:** R$50,00  
-**Total:** R$${total}  
+Taxa de serviço: R$50,00  
+Total: R$${total}
+
+Att,
 `;
 
     // Exibir o texto formatado na tela
